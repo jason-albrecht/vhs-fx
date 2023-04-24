@@ -1,7 +1,7 @@
-import play
+from Video import Video
 
 def main():
-    play.readVideo('assets/library.mp4')
+    Video.play('assets/library.mp4')
 
 
 if __name__ == '__main__':
